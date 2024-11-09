@@ -20,16 +20,4 @@ def run():
     n = int(input("Enter The Number"))
     prime(n)
 
-
-def password():
-    # "password by author#
-    pwd = str(2005)
-    pwrd = str(input("enter the password"))
-    if pwrd == pwd:
-        run()
-    else:
-        print("incorrect password")
-        password()
-
-
-password()
+run()
